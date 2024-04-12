@@ -12,14 +12,4 @@ function watch() {
 }
 
 exports.default = styles;
-exports.watch = function() {
-    gulp.watch('./src/styles/*.scss', gulp.parallel(styles))
-}
-
-exports.default = styles;
 exports.watch = watch;
-
-/*exports.default = styles;
-exports.watch = function() {
-    gulp.watch('./src/styles/*.scss', gulp.parallel(styles))
-} */
