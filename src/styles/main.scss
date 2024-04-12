@@ -1,5 +1,96 @@
-$bgColor: rgb(43, 255, 0);
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+}
 
-body {
-    background-color: $bgColor;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+
+    &__title {
+        color: #fff;
+    }
+}
+
+
+.nolan {
+    background-color: #222222;
+    color: #fff;
+    padding: 20px;
+
+    &__title {
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__image {
+        height: 350px;
+    }
+}
+
+
+.capa, .cooper, .dra__brand {
+    background-color: #ccc;
+    padding: 20px;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    &__image {
+        height: 350px;
+    }
+    
+    &__text {
+        padding-left: 20px;
+    }
+}
+
+.murph, .professor__brand {
+    background-color: #222222;
+    padding: 20px;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__image {
+        height: 350px;
+    }
+
+    &__text {
+        color: #fff;
+        padding-right: 20px;
+    }
+}
+
+.video__section {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.video__container {
+    margin-top: 20px;
 }
